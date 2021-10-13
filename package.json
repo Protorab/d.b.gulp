@@ -1,18 +1,16 @@
 {
 	"name": "default.build",
 	"version": "3.2.17",
-	"description": "Default build of gulp for website development",
+	"description": "default build",
 	"main": "index.js",
 	"author": "lyaanid lya.an.id@gmail.com",
 	"license": "ISC",
 	"devDependencies": {
-		"npm": "^8.0.0",
 		"@babel/core": "^7.12.9",
 		"@babel/preset-env": "^7.12.7",
 		"babel-loader": "^8.2.2",
 		"babel-plugin-module-resolver": "^4.0.0",
 		"browser-sync": "^2.26.14",
-		"browsersync-ssi": "^0.2.4",
 		"del": "^6.0.0",
 		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "^7.0.1",
@@ -23,10 +21,10 @@
 		"gulp-newer": "^1.4.0",
 		"gulp-pug": "^4.0.1",
 		"gulp-rename": "^2.0.0",
-		"gulp-rsync": "0.0.9",
 		"gulp-sass": "^4.1.0",
 		"gulp-ttf2woff": "^1.1.1",
 		"gulp-ttf2woff2": "^3.0.0",
+		"npm": "^8.0.0",
 		"webpack-stream": "^6.1.1"
 	},
 	"dependencies": {
@@ -35,6 +33,6 @@
 		"stylelint-declaration-block-no-ignored-properties": "^2.4.0",
 		"stylelint-order": "^4.1.0",
 		"stylelint-scss": "^3.21.0",
-		"swiper": "^7.0.8"
+		"swiper": "^6.7.0"
 	}
 }
