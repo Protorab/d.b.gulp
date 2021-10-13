@@ -44,11 +44,7 @@
     @for $i from 1 through 6 {
       &#{$i} {
         &:not([class]) {
-          font-family: Raleway, sans-serif;
-
           @include adaptive(margin-bottom, 25, 20, 0);
-
-          // max-width: 50%;
         }
       }
     }
@@ -68,14 +64,23 @@
 
   tr {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    // @include adaptive(margin, -20, -10, 0);
-    margin: -20px;
     flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: -20px;
+    h {
+      @for $i from 1 through 6 {
+        &#{$i} {
+          &:not([class]) {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
   }
 
-  td {
+  td,
+  th {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

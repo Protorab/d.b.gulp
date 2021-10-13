@@ -8,6 +8,7 @@ import observer from "./functions/lazyLoading";
 import lazyBg from "./functions/lazyBg";
 import setMarginTop from "./functions/setMarginTop";
 import simpleAnimate from "./functions/simpleAnimate";
+import numberList from "./functions/numberList";
 // import customSelectFunc from "./functions/customSelect";
 // import tabsChange from "./functions/tabsChange";
 // import collapsibleFunc from "./functions/collapsible";
@@ -39,6 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // customSelectFunc();
   // collapsibleFunc();
   // tabsChange();
+  numberList();
   lazyBg();
   modalWindowInit();
   btnsFunc();
